@@ -1,41 +1,59 @@
 ﻿<html>
 <head>
-<style>
-  body { 
-    margin: 0; 
-    background-color: #0a1f44;
-    color: white;
-    padding: 8px 12px;
-  }
+    <meta charset="UTF-8">
 
-a {
-    color: #ff00ff;
-    text-decoration: none;
-    margin-right: 20px;
-}
-a:visited {
-    color: red;  /* クリック後の色 */
-}
-a:hover {
-    text-decoration: underline;
-}
+    <link rel="stylesheet" href="style.css">
 
+	<style>
 
+	.body { 
+		display: flex;
+    	justify-content: space-between;
+    	align-items: center;
+    	margin: 0;
+    	background-color: #0a1f44;
+    	color: white;
+    	padding: 8px 12px;
+	}
 
+	.logo a{
+		color: #aaaaaa;
+		font-size: 2rem;
+		font-family: 'ＭＳゴシック';
+		font-weight: bold;
+		text-decoration: none;
+	}
 
-</style>
+	a{
+    	color: white;
+		font-size: 1.2rem;
+		font-family: "ＭＳゴシック";
+		font-weight: bold;
+    	text-decoration: none;
+    	margin-right: 10px;
+    	margin-left: 10px;
+	}
+
+	a:hover { text-decoration: underline; }
+	a:visited { color: white; } 
+
+	</style>
+
 </head>
 
 <body>
-Poc2Production &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
-
-<a href="main.html" target="main_frame">トップページ</a>&ensp;&ensp;&ensp;
-<a href="service.html" target="main_frame">サービス/フィー</a>&ensp;&ensp;&ensp;
-<a href="companyInfo.html" target="main_frame">会社情報</a>&ensp;&ensp;&ensp;
-<a href="Information.html" target="main_frame">お知らせ</a>&ensp;&ensp;&ensp;
-<a href="https://note.com/k_enomot" target="_blank" rel="noopener">技術ブログ</a>
-
-
+<div class="body">
+    <div class="logo">
+		<a href="main.html" target="main_frame">Poc2Production</a>
+	</div>
+    <div class="menu">
+		<a href="service.html" target="main_frame">サービス/フィー</a>
+		<a href="companyInfo.html" target="main_frame">会社情報</a>
+		<a href="Information.html" target="main_frame">お知らせ</a>
+		<a href="Inquiry.html" target="main_frame">お問い合わせ</a>
+		<a href="https://note.com/k_enomot" target="_blank" rel="noopener">技術ブログ</a>
+    </div>
+</div>
 </body>
 </html>
 
