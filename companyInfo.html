@@ -1,69 +1,186 @@
-﻿<html>
-当事務所について<br>
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+<body>
+    <meta charset="UTF-8">
 
+    <link rel="stylesheet" href="style.css">
+
+	<style>
+	body {
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+
+	.caption {
+		display: flex;
+		align-content: left;
+		justify-content: left;
+		color: #000000;
+		font-size: 2rem;
+		font-family: 'BIZ UDGothic';
+		font-weight: bold;
+		margin-top: 24px;
+		margin-bottom: 4px;
+	}
+
+	.item1 { 
+		color: #000000;
+		font-size: 1.3rem;
+		font-family: 'BIZ UDGothic';
+		font-weight: bold;
+    	padding: 2px 12px;
+		margin-top: 24px;
+		margin-bottom: 4px;
+	}
+
+	.item2 { 
+		color: #000000;
+		font-size: 1.2rem;
+		font-family: 'ＭＳ ゴシック';
+		font-weight: normal;
+    	padding: 2px 12px;
+	}
+
+	.item3 { 
+		color: #000000;
+		font-size: 1rem;
+		font-family: 'ＭＳ ゴシック';
+		font-weight: normal;
+    	padding: 5px 12px;
+		line-height: 1.2;
+	}
+
+	a{
+    	color: white;
+		font-size: 1.2rem;
+		font-family: "ＭＳ ゴシック";
+		font-weight: bold;
+    	text-decoration: none;
+    	margin-right: 10px;
+    	margin-left: 10px;
+	}
+
+	a:hover { text-decoration: underline; }
+	a:visited { color: white; } 
+
+	</style>
+
+</head>
+
+<div class="body">
+
+<div class="caption">
+当事務所について<br>
+</div>
+
+<div class="item1">
 代表者<br>
+</div>
+
+<div class="item2">
 名前：榎本圭一<br>
 連絡先：info@poc2production.net<br>
-<br>
-<br>
-
-代表経歴<br>
-設計開発の経歴<br>
-ソニー木更津(株)(現:ソニーグローバルマニュファクチャリングオペレーションズ)<br>
-&ensp;・初代プレイステーションの最後のモデル SCPH-9000シリーズ設計を担当<br>
-&ensp;・VAIOデスクトップ：PCV-J/RX/MXSシリーズのメモリ周りの組み合わせ試験手法構築、及び設計側調達を担当<br>
-&ensp;・ブルーレイレコーダ：BDZ-V9/7シリーズのソフトウェアテストのマネジメントを担当<br>
-&ensp;・ヨーロッパ/オーストラリア向けHDDレコーダー：RDR-HDC/DC100シリーズのMPEG2-TSラインの回路設計、及び量産立ち上げを担当<br>
-&ensp;・海外向けスティックプレーヤー：NSZ-GU1シリーズのEMC/海外版技適/製品安全全般のマネジメントを担当<br>
-&ensp;・店頭向けネットワークプレーヤーの表示管、CEM3基板でのUSBの回路設計を担当<br>
-&ensp;・その他、LAMPでのDBアクセスのAPP開発、ARM向け組み込みソフトウェア開発、部門内シス管、請求書処理など細々とした業務も担当<br>
+</div>
 <br>
 
+<div class="caption">
+代表経歴（設計開発の経歴）<br>
+</div>
+
+<div class="item1">
+ソニー木更津(株)（現：ソニーグローバルマニュファクチャリングオペレーションズ）<br>
+</div>
+
+<div class="item2">
+担当業務<br>
+・デジタル伝送路回路設計/EMC設計<br>
+・海外工場での量産立ち上げ/製造導入<br>
+・ソフトウェア試験/組み込み開発<br>
+・製品安全/海外認証マネジメント<br>
+など、SCPH-9000シリーズやPCV-RXシリーズなど、AV機器、AV/IT機器を担当。<br>
+</div>
+
+
+<div class="item1">
 (株)慶洋エンジニアリング<br>
-&ensp;・車載向けフルセグ地デジチューナーの取説、及び量産立ち上げを担当<br>
-&ensp;・透明アンテナの特性評価の担当<br>
-&ensp;・メルセデス・ベンツ/スバル用品向けドライブレコーダーの商品設計マネジメントを担当<br>
-<br>
+</div>
 
+<div class="item2">
+担当業務<br>
+・取扱説明書マネジメント<br>
+・アンテナの特性評価<br>
+・海外外部委託メーカーの設計マネジメント/中国工場への量産導入<br>
+など、AN-T018などの一般カー用品向け製品、メルセデス・ベンツ/スバル用品などの用品向けを担当。<br>
+</div>
+
+<div class="item1">
 加賀マイクロソリューション(株)<br>
-&ensp;・医療機器の設計マネジメント、回路図レビュー、EMC設計を担当<br>
-&ensp;・子供向け電子玩具の静電気設計を担当<br>
-&ensp;・インバウンド向け電子玩具のソフトウェア開発を担当<br>
-&ensp;・調理補助器具のEMC設計と設計マネジメントを担当<br>
-&ensp;・ヨーロッパ向けタブレット充電チャージャーの回路設計を担当<br>
-&ensp;・トイレ用品の設計マネジメント、品質試験を担当<br>
-&ensp;・IoT機器の電気二重層コンデンサの放電回路の回路設計を担当<br>
-<br>
+</div>
 
-(株)アスク<br>
-&ensp;・ゲームセンター向け業務用PCの設計マネジメント、基本試験、温度試験、EMC試験、品質試験、製品安全管理、及び量産立ち上げを担当<br>
-&ensp;・一般家庭向けゲーミングPCの製品試験、設計マネジメント、及び量産立ち上げを担当<br>
-&ensp;・キャラクタープリントPCの製造導入、製造技術マネジメントを担当<br>
-&ensp;・ゲーミングPCの量産時に使用する検査アプリケーションの開発<br>
-&ensp;・NVIDIA Jetson Xavierを使用したPoC品のLowバッテリー残量検出回路設計を担当<br>
-&ensp;・NVIDIA Jetson NANOを使用したPoC品ケースの板金設計を担当<br>
-&ensp;・ATXケースに取り付けるVGAサポートステイの板金設計を担当<br>
-&ensp;・自社ブランドのベアボーンPCで製品試験、取説やラベルの作成、量産導入を担当<br>
-&ensp;・高校生の総合的な学習の時間の授業向けのPC組み立て動画の作成<br>
-&ensp;・その他、USB-Cケーブルの断線確認治具、省電力を繰り返すアプリケーションなどの開発、グリスを定量塗布するカバーなどの製造補助治具の開発<br>
-<br>
+<div class="item2">
+担当業務<br>
+・設計マネジメント/回路図レビュー/EMC試験<br>
+・各アナログ/デジタル回路設計、品質試験<br>
+・製品安全の試験、取得までのマネジメント<br>
+・PICの組み込みソフトウェア開発<br>
+など、医療機器、トイレ機器、電子調理器具、IoT機器、タブレットチャージャー機器を担当。<br>
+</div>
 
-コンサルティングの経歴(詳細は守秘義務契約があるため割愛)<br>
-&ensp;・中国の携帯電話メーカー<br>
-&ensp;・中国のカメラレンズモジュールメーカー<br>
-<br>
-   
+<div class="item1">
+(株)アスク
+</div>
+<div class="item2">
+担当業務<br>
+・設計マネジメント/品質試験/製品安全管理<br>
+・工場の量産立ち上げ/導入/検査ソフト開発<br>
+・IP商品の設計マネジメントから量産立ち上げ<br>
+・高校生の総合的な学習の時間の授業向けのPC組み立て動画の作成<br>
+・バッテリー残量検出、RTC基板の設計<br>
+・PoC製品/VGAカードサポート板金の板金設計<br>
+・取扱説明書/カタログ/ブローシャの版下作成<br>
+など、工業/家庭用に関する製品導入から量産立ち上げ、NVIDIA Jetsonに追加するモジュール設計、動画編集などを担当。<br>
+</div>
+
+<div class="item1">
+コンサルティング実績<br>
+</div>
+<div class="item2">
+守秘義務契約があるため詳細は非公開<br>
+セット設計のプロセスや認証、それに付帯する関連業務のコンサルティング<br>
+</div>
+
+<div class="item1">
 受賞等<br>
+</div>
+
+<div class="item2">
 特開2014-75013 (P2014-75013A)：データ変換方法、データ変換プログラム、およびデータ変換装置<br>
+</div>
+
+<div class="item1">
+保有資格<br>
+</div>
+
+<div class="item2">
+第一級陸上特殊無線技士<br>
+</div>
+
+<div class="item1">
+対応可能な領域<br>
+</div>
+
+<div class="item2">
+民生機器、医療機器、車載、PC、IoT機器から電子玩具までの設計マネジメントから実設計、<br>
+EMC/RF、製品安全コンプライアンスまで商品化に必要なもの、ことについて経験あり。<br>
+セット設計だけでなく、取扱説明書やパンフや箱などの版下作成の経験もあります。<br>
 <br>
-
-PR<br>   
-AV機器やちょっとマニアックな家電、PCなどで製品化するための設計、それに関連する項目：EMC/RF(技適)/製品安全規格、ラベルや取説の作成など、<br>
-市場で発売するための一通りの業務を担当しましたので、必要な事項についてはアドバイス、コンサルティングが可能です。<br>
-キャラクターなどのIP製品も経験がありますので、IPを使用した製品にも対応可能です。<br>
+キャラクターIP製品(女の子向けアニメ、Vtuber)の経験もあります。<br>
+詳細についての問い合わせはご遠慮なく(Feel free)お問い合わせ下さい。<br>
+</div>
 <br>
-
-
+</div>
+</body>
 </html>
 &ensp;&ensp;
 
